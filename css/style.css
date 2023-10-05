@@ -1,0 +1,12 @@
+
+#menu{
+	list-style-type:none;
+	font-size:18px;
+}
+
+#menu li{
+	display:inline;
+}
+
+
+
