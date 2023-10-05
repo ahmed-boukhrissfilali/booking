@@ -1,0 +1,35 @@
+room( 
+chambre_livree (int, nullable)
+photo (varchar)
+price (varchar)
+room_id (PRI, int)
+room_type (varchar)
+total_chambres (int, 1, nullable))
+
+
+
+
+transaction(
+bill (varchar)
+checkin (date)
+checkin_time (time)
+checkout (date)
+checkout_time (time)
+days (int)
+extra_bed (int)
+guest_id (int)
+room_id (MUL, int)
+room_no (int)
+status (varchar)
+transaction_id (PRI, int))
+
+
+
+guest(
+
+address (varchar)
+contactno (varchar)
+firstname (varchar)
+guest_id (PRI, int)
+lastname (varchar)
+middlename (varchar))
